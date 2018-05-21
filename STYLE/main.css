@@ -1,0 +1,2549 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  div{
+    background-color: #263238;
+    margin: auto;
+    height: 80px;
+    width: auto;
+    margin: auto;
+    text-align: center;
+ }
+
+ h1{
+    font-family: 'Sansita', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    color: white;
+ }
+  .icono{
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    margin: auto;
+ }
+
+  nav ul center{
+    background-color: #CFD8DC;
+    height: 35px;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  nav ul center a{
+    text-align: center;
+    display: inline-block;
+    margin: 5px 50px 5px 50px;
+
+  }
+  a {
+    text-decoration: none;
+    padding: 30px ,60px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #263238;
+    font-size: 20px;
+  }
+
+   .form{
+       border-bottom: solid 2px #FBFF00;
+      }
+
+
+ .inicio{
+     width: auto;
+     height: 940px;
+     background-color: #263238c5;
+     margin: auto;
+    }
+    .slider{
+      width: auto;
+      height: 400px;
+      margin: auto;
+      overflow: hidden;
+      
+    }
+    .slider ul{
+      display: flex;
+      padding: 0%;
+      width: 400%;
+      animation: cambio 20s infinite alternate;
+      animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+
+    }
+    .slider ul li{
+      width: 100%;
+       list-style: none;
+    }
+    .slider img{
+      width: 100%;
+    }
+
+    @keyframes cambio{
+      0% {margin-left: 0;}
+      20%{margin-left: 0;}
+
+      25%{margin-left: -100%;}
+      45%{margin-left: -100%;}
+
+      50%{margin-left: -200%;}
+      70%{margin-left: -200%;}
+
+      75%{margin-left: -300%;}
+      100%{margin-left: -300%;}
+
+    }
+    .banner2{
+      font-family: 'Sansita', sans-serif;
+      font-size: 30px;
+      color: #FFFFFF;
+      position: absolute;
+      top:530px;
+      left: 30px;
+      margin: auto;
+    }
+    
+    .uno1 {
+      position: absolute;
+      left: 30px;
+      top: 660px;
+      bottom: 0px;
+      margin: auto;
+      width: 200px;
+      height: 280px;
+      overflow: hidden;
+      
+    }
+    .uno2 img {
+      width: 200px;
+      height: 280px;
+    }
+
+    .uno1 article {
+        width: 200px;
+        height: 280px;
+        background-color: rgba(0, 255, 255, 0.64);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        transform: rotate(90deg) translate(350px ,-350px);
+        transition-duration: .5s;
+        text-align: center;
+      }
+
+    .uno1:hover article {
+        transform: rotate(0deg) translate(0px);
+      }
+
+    .uno1 article h4 {
+        text-align: center;
+        color: #000000;
+        padding:20px 20px;
+        transform: translate(280px,-60px) ;
+        transition-duration: .5s;
+        transition-delay: 1s ;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 16px;
+        margin: 5px;
+      }
+
+    .uno1:hover article h4 {
+        transform: translate(0px);
+      }
+
+    .uno1 article p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        font-size: 14px;
+        position: absolute;
+        top: 70px;
+        left: 8px;
+        right: 8px;
+        bottom: 0px;
+        margin: auto;
+        transform: translate(-700px,-390px);
+        transition-duration: .5s;
+        transition-delay: 1s;
+      }
+    .uno1:hover article p {
+        transform: translateX(0px);
+        transform: translateY(0px);
+      }
+    .uno1 article a {
+        background-color: silver;
+        border: 2px solid #FFFFFF;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 12px;
+        color: black;
+        position: absolute;
+        top: 240px;
+        right: 40px;
+        left: 40px;
+        bottom: 20px;
+        margin: auto;
+        transform: translateY(160px);
+        transition-duration: .5s;
+        transition-delay:1s;
+      }
+    .uno1:hover article a {
+        transform: translateY(0px);
+      }
+
+    .uno2{
+      position: absolute;
+      left: -607px;
+      right: 90px;
+      top: 660px;
+      bottom: 0px;
+      margin: auto;
+      width: 200px;
+      height: 280px;
+      overflow: hidden;
+      
+    }
+    .uno2 img {
+      width: 200px;
+      height: 280px;
+    }
+
+    .uno2 article {
+        width: 200px;
+        height: 280px;
+        background-color: rgba(76, 0, 255, 0.74);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        transform: rotate(90deg) translate(350px ,-350px);
+        transition-duration: .5s;
+        text-align: center;
+      }
+
+    .uno2:hover article {
+        transform: rotate(0deg) translate(0px);
+      }
+
+    .uno2 article h4 {
+        text-align: center;
+        color: #FFFFFF;
+        padding:20px 20px;
+        transform: translate(280px,-60px) ;
+        transition-duration: .5s;
+        transition-delay: 1s ;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 18px;
+        margin: 5px;
+      }
+
+    .uno2:hover article h4 {
+        transform: translate(0px);
+      }
+
+    .uno2 article p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 70px;
+        left: 8px;
+        right: 8px;
+        bottom: 0px;
+        margin: auto;
+        transform: translate(-700px,-390px);
+        transition-duration: .5s;
+        transition-delay: 1s;
+      }
+    .uno2:hover article p {
+        transform: translateX(0px);
+        transform: translateY(0px);
+      }
+    .uno2 article a {
+        background-color: silver;
+        border: 2px solid #FFFFFF;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 12px;
+        color: black;
+        position: absolute;
+        top: 240px;
+        right: 40px;
+        left: 40px;
+        bottom: 20px;
+        margin: auto;
+        transform: translateY(160px);
+        transition-duration: .5s;
+        transition-delay:1s;
+      }
+    .uno2:hover article a {
+        transform: translateY(0px);
+      }
+      .uno3{
+        position: absolute;
+        left: -100px;
+        right: 130px;
+        top: 660px;
+        bottom: 0px;
+        margin: auto;
+        width: 200px;
+        height: 280px;
+        overflow: hidden;
+        
+      }
+      .uno3 img {
+        width: 200px;
+        height: 280px;
+      }
+  
+      .uno3 article {
+          width: 200px;
+          height: 280px;
+          background-color: rgba(255, 136, 0, 0.74);
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          transform: rotate(90deg) translate(350px ,-350px);
+          transition-duration: .5s;
+          text-align: center;
+        }
+  
+      .uno3:hover article {
+          transform: rotate(0deg) translate(0px);
+        }
+  
+      .uno3 article h4 {
+          text-align: center;
+          color: #000000;
+          padding:20px 20px;
+          transform: translate(280px,-60px) ;
+          transition-duration: .5s;
+          transition-delay: 1s ;
+          font-family: 'Orbitron', sans-serif;
+          font-size: 16px;
+          margin: 2px;
+        }
+  
+      .uno3:hover article h4 {
+          transform: translate(0px);
+        }
+  
+      .uno3 article p {
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: justify;
+          color: #000000;
+          font-size: 14px;
+          position: absolute;
+          top: 70px;
+          left: 8px;
+          right: 8px;
+          bottom: 0px;
+          margin: auto;
+          transform: translate(-700px,-390px);
+          transition-duration: .5s;
+          transition-delay: 1s;
+        }
+      .uno3:hover article p {
+          transform: translateX(0px);
+          transform: translateY(0px);
+        }
+      .uno3 article a {
+          background-color: silver;
+          border: 2px solid #FFFFFF;
+          font-family: 'Orbitron', sans-serif;
+          font-size: 12px;
+          color: black;
+          position: absolute;
+          top: 240px;
+          right: 40px;
+          left: 40px;
+          bottom: 20px;
+          margin: auto;
+          transform: translateY(160px);
+          transition-duration: .5s;
+          transition-delay:1s;
+        }
+      .uno3:hover article a {
+          transform: translateY(0px);
+        }
+        
+        .uno4{
+          position: absolute;
+          left: 260px;
+          right: 25px;
+          top: 660px;
+          bottom: 0px;
+          margin: auto;
+          width: 200px;
+          height: 280px;
+          overflow: hidden;
+          
+        }
+        .uno4 img {
+          width: 200px;
+          height: 280px;
+        }
+    
+        .uno4 article {
+            width: 200px;
+            height: 280px;
+            background-color: rgba(255, 0, 0, 0.61);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            transform: rotate(90deg) translate(350px ,-350px);
+            transition-duration: .5s;
+            text-align: center;
+          }
+    
+        .uno4:hover article {
+            transform: rotate(0deg) translate(0px);
+          }
+    
+        .uno4 article h4 {
+            text-align: center;
+            color: #FFFFFF;
+            padding:20px 20px;
+            transform: translate(280px,-60px) ;
+            transition-duration: .5s;
+            transition-delay: 1s ;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 16px;
+            margin: 2px;
+          }
+    
+        .uno4:hover article h4 {
+            transform: translate(0px);
+          }
+    
+        .uno4 article p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            color: #FFFFFF;
+            font-size: 14px;
+            position: absolute;
+            top: 70px;
+            left: 8px;
+            right: 8px;
+            bottom: 0px;
+            margin: auto;
+            transform: translate(-700px,-390px);
+            transition-duration: .5s;
+            transition-delay: 1s;
+          }
+        .uno4:hover article p {
+            transform: translateX(0px);
+            transform: translateY(0px);
+          }
+        .uno4 article a {
+            background-color: silver;
+            border: 2px solid #FFFFFF;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 12px;
+            color: black;
+            position: absolute;
+            top: 240px;
+            right: 40px;
+            left: 40px;
+            bottom: 20px;
+            margin: auto;
+            transform: translateY(160px);
+            transition-duration: .5s;
+            transition-delay:1s;
+          }
+        .uno4:hover article a {
+            transform: translateY(0px);
+          }
+          
+          .uno5{
+            position: absolute;
+            left: 501px;
+            right: -200px;
+            top: 660px;
+            bottom: 0px;
+            margin: auto;
+            width: 200px;
+            height: 280px;
+            overflow: hidden;
+            
+          }
+          .uno5 img {
+            width: 200px;
+            height: 280px;
+          }
+      
+          .uno5 article {
+              width: 200px;
+              height: 280px;
+              background-color:rgba(56, 49, 100, 0.62) ;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              transform: rotate(90deg) translate(350px ,-350px);
+              transition-duration: .5s;
+              text-align: center;
+            }
+      
+          .uno5:hover article {
+              transform: rotate(0deg) translate(0px);
+            }
+      
+          .uno5 article h4 {
+              text-align: center;
+              color: #FFFFFF;
+              padding: 30px 20px;
+              transform: translate(280px,-60px) ;
+              transition-duration: .5s;
+              transition-delay: 0.5s ;
+              font-family: 'Orbitron', sans-serif;
+              font-size: 16px;
+              margin: 2px;
+            }
+      
+          .uno5:hover article h4 {
+              transform: translate(0px);
+            }
+      
+          .uno5 article p {
+              font-family: Arial, Helvetica, sans-serif;
+              text-align: justify;
+              color: #FFFFFF;
+              font-size: 14px;
+              position: absolute;
+              top: 90px;
+              left: 8px;
+              right: 8px;
+              bottom: 0px;
+              margin: auto;
+              transform: translate(-700px,-390px);
+              transition-duration: .5s;
+              transition-delay: 0.5s;
+            }
+          .uno5:hover article p {
+              transform: translateX(0px);
+              transform: translateY(0px);
+            }
+          .uno5 article a {
+              background-color: silver;
+              border: 2px solid #FFFFFF;
+              font-family: 'Orbitron', sans-serif;
+              font-size: 12px;
+              color: black;
+              position: absolute;
+              top: 240px;
+              right: 40px;
+              left: 40px;
+              bottom: 20px;
+              margin: auto;
+              transform: translateY(160px);
+              transition-duration: .5s;
+              transition-delay: 0.5s;
+            }
+          .uno5:hover article a {
+              transform: translateY(0px);
+            }
+            
+            .uno6{
+              position: absolute;
+              left: 745px;
+              right: -418px;
+              top: 660px;
+              bottom: 0px;
+              margin: auto;
+              width: 200px;
+              height: 280px;
+              overflow: hidden;
+              
+            }
+            .uno6 img {
+              width: 200px;
+              height: 280px;
+            }
+        
+            .uno6 article {
+                width: 200px;
+                height: 280px;
+                background-color:rgba(14, 150, 104, 0.62) ;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                transform: rotate(90deg) translate(350px ,-350px);
+                transition-duration: .5s;
+                text-align: center;
+              }
+        
+            .uno6:hover article {
+                transform: rotate(0deg) translate(0px);
+              }
+        
+            .uno6 article h4 {
+                text-align: center;
+                color: #FFFFFF;
+                padding:30px 20px;
+                transform: translate(280px,-60px) ;
+                transition-duration: .5s;
+                transition-delay: 0.5s ;
+                font-family: 'Orbitron', sans-serif;
+                font-size: 16px;
+                margin: 2px;
+              }
+        
+            .uno6:hover article h4 {
+                transform: translate(0px);
+              }
+        
+            .uno6 article p {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+                color: #FFFFFF;
+                font-size: 14px;
+                position: absolute;
+                top: 90px;
+                left: 8px;
+                right: 8px;
+                bottom: 0px;
+                margin: auto;
+                transform: translate(-700px,-390px);
+                transition-duration: .5s;
+                transition-delay: 0.5s;
+              }
+            .uno6:hover article p {
+                transform: translateX(0px);
+                transform: translateY(0px);
+              }
+            .uno6 article a {
+                background-color: silver;
+                border: 2px solid #FFFFFF;
+                font-family: 'Orbitron', sans-serif;
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 240px;
+                right: 40px;
+                left: 40px;
+                bottom: 20px;
+                margin: auto;
+                transform: translateY(160px);
+                transition-duration: .5s;
+                transition-delay: 0.5s;
+              }
+            .uno6:hover article a {
+                transform: translateY(0px);
+              }
+
+            
+             .piepag{
+              width: auto;
+              height: 130px;
+              background-color: #263238;
+              text-align: center;
+              position: absolute;
+              top: 950px;
+              left: 0px;
+              right: 0px;
+              bottom: -250px;
+            }
+            .piepag img{
+               width: 40px;
+              height: 40px;
+              margin: 20px 10px 0px 0px;
+            }
+
+            .piepag  p{
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 12px;
+             margin: 10px 0px 0px 0px;
+             color: #ffffff;
+            }
+            /*******************************************************/
+
+            .piepag2{
+              width: auto;
+              height: 130px;
+              background-color: #263238;
+              text-align: center;
+              position: absolute;
+              top: 690px;
+              left: 0px;
+              right: 0px;
+              bottom: -250px;
+            }
+            .piepag2 img{
+               width: 40px;
+              height: 40px;
+              margin: 20px 10px 0px 0px;
+            }
+
+            .piepag2  p{
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 12px;
+             margin: 10px 0px 0px 0px;
+             color: #ffffff;
+            }
+/****************************************PAGINA DOS*******************************************************************************/
+            .pagina2{
+              width: auto;
+              height: 700px;
+              background-color: #263238c5;
+              margin: auto;
+            }
+            
+            .dos1 {
+              position: absolute;
+              left: 80px;
+              top: 10px;
+              bottom: 0px;
+              margin: auto;
+              width: 250px;
+              height: 400px;
+              overflow: hidden;              
+            }
+            .dos1 img {
+              width: 250px;
+              height: 400px;
+            }
+        
+            .dos1 article {
+                width: 250px;
+                height: 400px;
+                background-color: rgba(46, 16, 16, 0.78);
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                transform: scale(0) rotate(0deg);
+                transition-duration: .5s;
+                text-align: center;
+              }
+        
+            .dos1:hover article {
+              transform:scale(1) rotate(360deg);
+              }
+        
+            .dos1 article h4 {
+                text-align: center;
+                color: #FFFFFF;
+                padding:20px 20px;
+                transform: scale(0);
+                transition-duration: .5s;
+                transition-delay: 1s ;
+                font-family: 'Orbitron', sans-serif;
+                font-size: 16px;
+                margin: 5px;
+                overflow: hidden;
+              }
+        
+            .dos1:hover article h4 {
+              transform: scale(1);
+              }
+        
+            .dos1 article p {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+                font-size: 14px;
+                color: #FFFFFF;
+                position: absolute;
+                top: 70px;
+                left: 8px;
+                right: 8px;
+                bottom: 0px;
+                margin: auto;
+                transform: scale(0);
+                transition-duration: .5s;
+                transition-delay: 1s;
+              }
+            .dos1:hover article p {
+              transform: scale(1);
+              }
+            .dos1 article a {
+                background-color: silver;
+                border: 2px solid #FFFFFF;
+                font-family: 'Orbitron', sans-serif;
+                font-size: 14px;
+                color: black;
+                position: absolute;
+                top: 350px;
+                right: 50px;
+                left: 50px;
+                bottom: 30px;
+                margin: auto;
+                transform: scale(0) rotate(0deg);
+                transition-duration: .5s;
+                transition-delay:1s;
+              }
+            .dos1:hover article a {
+              transform:scale(1) rotate(360deg);
+              }
+
+
+              .dos2 {
+                position: absolute;
+                left: -340px;
+                top: 10px;
+                right: 0px;
+                bottom: 0px;
+                margin: auto;
+                width: 250px;
+                height: 400px;
+                overflow: hidden;              
+              }
+              .dos2 img {
+                width: 250px;
+                height: 400px;
+              }
+          
+              .dos2 article {
+                  width: 250px;
+                  height: 400px;
+                  background-color: rgba(26, 98, 116, 0.78);
+                  position: absolute;
+                  left: 0px;
+                  top: 0px;
+                  transform: scale(0) rotate(0deg);
+                  transition-duration: .5s;
+                  text-align: center;
+                }
+          
+              .dos2:hover article {
+                transform:scale(1) rotate(360deg);
+                }
+          
+              .dos2 article h4 {
+                  text-align: center;
+                  color: #FFFFFF;
+                  padding:20px 20px;
+                  transform: scale(0);
+                  transition-duration: .5s;
+                  transition-delay: 1s ;
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 16px;
+                  margin: 5px;
+                  overflow: hidden;
+                }
+          
+              .dos2:hover article h4 {
+                transform: scale(1);
+                }
+          
+              .dos2 article p {
+                  font-family: Arial, Helvetica, sans-serif;
+                  text-align: justify;
+                  font-size: 14px;
+                  color: #FFFFFF;
+                  position: absolute;
+                  top: 70px;
+                  left: 8px;
+                  right: 8px;
+                  bottom: 0px;
+                  margin: auto;
+                  transform: scale(0);
+                  transition-duration: .5s;
+                  transition-delay: 1s;
+                }
+              .dos2:hover article p {
+                transform: scale(1);
+                }
+              .dos2 article a {
+                  background-color: silver;
+                  border: 2px solid #FFFFFF;
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 14px;
+                  color: black;
+                  position: absolute;
+                  top: 350px;
+                  right: 50px;
+                  left: 50px;
+                  bottom: 30px;
+                  margin: auto;
+                  transform: scale(0) rotate(0deg);
+                  transition-duration: .5s;
+                  transition-delay:1s;
+                }
+              .dos2:hover article a {
+                transform:scale(1) rotate(360deg);
+                }
+  
+
+                .dos3 {
+                  position: absolute;
+                  left: 330px;
+                  top: 10px;
+                  right: 0px;
+                  bottom: 0px;
+                  margin: auto;
+                  width: 250px;
+                  height: 400px;
+                  overflow: hidden;              
+                }
+                .dos3 img {
+                  width: 250px;
+                  height: 400px;
+                }
+            
+                .dos3 article {
+                    width: 250px;
+                    height: 400px;
+                    background-color: rgba(11, 104, 27, 0.66);
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    transform: scale(0) rotate(0deg);
+                    transition-duration: .5s;
+                    text-align: center;
+                  }
+            
+                .dos3:hover article {
+                  transform:scale(1) rotate(360deg);
+                  }
+            
+                .dos3 article h4 {
+                    text-align: center;
+                    color: #FFFFFF;
+                    padding:20px 20px;
+                    transform: scale(0);
+                    transition-duration: .5s;
+                    transition-delay: 1s ;
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 16px;
+                    margin: 5px;
+                    overflow: hidden;
+                  }
+            
+                .dos3:hover article h4 {
+                  transform: scale(1);
+                  }
+            
+                .dos3 article p {
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: justify;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    position: absolute;
+                    top: 90px;
+                    left: 8px;
+                    right: 8px;
+                    bottom: 0px;
+                    margin: auto;
+                    transform: scale(0);
+                    transition-duration: .5s;
+                    transition-delay: 1s;
+                  }
+                .dos3:hover article p {
+                  transform: scale(1);
+                  }
+                .dos3 article a {
+                    background-color: silver;
+                    border: 2px solid #FFFFFF;
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 14px;
+                    color: black;
+                    position: absolute;
+                    top: 350px;
+                    right: 50px;
+                    left: 50px;
+                    bottom: 30px;
+                    margin: auto;
+                    transform: scale(0) rotate(0deg);
+                    transition-duration: .5s;
+                    transition-delay:1s;
+                  }
+                .dos3:hover article a {
+                  transform:scale(1) rotate(360deg);
+                  }
+    
+                    
+
+                  .dos4 {
+                    position: absolute;
+                    left: 1000px;
+                    top: 10px;
+                    right: 0px;
+                    bottom: 0px;
+                    margin: auto;
+                    width: 250px;
+                    height: 400px;
+                    overflow: hidden;             
+                  }
+                  .dos4 img {
+                    width: 250px;
+                    height: 400px;
+                  }
+              
+                  .dos4 article {
+                      width: 250px;
+                      height: 400px;
+                      background-color: rgba(45, 45, 51, 0.81);
+                      position: absolute;
+                      left: 0px;
+                      top: 0px;
+                      transform: scale(0) rotate(0deg);
+                      transition-duration: .5s;
+                      text-align: center;
+                    }
+              
+                  .dos4:hover article {
+                    transform:scale(1) rotate(360deg);
+                    }
+              
+                  .dos4 article h4 {
+                      text-align: center;
+                      color: #FFFFFF;
+                      padding:20px 20px;
+                      transform: scale(0);
+                      transition-duration: .5s;
+                      transition-delay: 1s ;
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 16px;
+                      margin: 5px;
+                      overflow: hidden;
+                    }
+              
+                  .dos4:hover article h4 {
+                    transform: scale(1);
+                    }
+              
+                  .dos4 article p {
+                      font-family: Arial, Helvetica, sans-serif;
+                      text-align: justify;
+                      font-size: 14px;
+                      color: #FFFFFF;
+                      position: absolute;
+                      top: 90px;
+                      left: 8px;
+                      right: 8px;
+                      bottom: 0px;
+                      margin: auto;
+                      transform: scale(0);
+                      transition-duration: .5s;
+                      transition-delay: 1s;
+                    }
+                  .dos4:hover article p {
+                    transform: scale(1);
+                    }
+                  .dos4 article a {
+                      background-color: silver;
+                      border: 2px solid #FFFFFF;
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 14px;
+                      color: black;
+                      position: absolute;
+                      top: 350px;
+                      right: 50px;
+                      left: 50px;
+                      bottom: 30px;
+                      margin: auto;
+                      transform: scale(0) rotate(0deg);
+                      transition-duration: .5s;
+                      transition-delay:1s;
+                    }
+                  .dos4:hover article a {
+                    transform:scale(1) rotate(360deg);
+                    }
+
+           
+            /****************tercera pagina****************************************************************/
+            
+            .pagina3{
+              width: auto;
+              height: 700px;
+              background-color: #263238c5;
+              margin: auto;
+            }
+            
+            .tres1 {
+              position: absolute;
+              left: 80px;
+              top: 10px;
+              bottom: 0px;
+              margin: auto;
+              width: 250px;
+              height: 400px;
+              overflow: hidden;              
+            }
+            .tres1 img {
+              width: 250px;
+              height: 400px;
+            }
+        
+            .tres1 article {
+                width: 250px;
+                height: 400px;
+                background-color: rgba(138, 0, 0, 0.78);
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                transform: scale(0) rotate(0deg);
+                transition-duration: .5s;
+                text-align: center;
+              }
+        
+            .tres1:hover article {
+              transform:scale(1) rotate(360deg);
+              }
+        
+            .tres1 article h4 {
+                text-align: center;
+                color: #FFFFFF;
+                padding:20px 20px;
+                transform: scale(0);
+                transition-duration: .5s;
+                transition-delay: 1s ;
+                font-family: 'Orbitron', sans-serif;
+                font-size: 16px;
+                margin: 5px;
+                overflow: hidden;
+              }
+        
+            .tres1:hover article h4 {
+              transform: scale(1);
+              }
+        
+            .tres1 article p {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+                font-size: 14px;
+                color: #FFFFFF;
+                position: absolute;
+                top: 70px;
+                left: 8px;
+                right: 8px;
+                bottom: 0px;
+                margin: auto;
+                transform: scale(0);
+                transition-duration: .5s;
+                transition-delay: 1s;
+              }
+            .tres1:hover article p {
+              transform: scale(1);
+              }
+            .tres1 article a {
+                background-color: silver;
+                border: 2px solid #FFFFFF;
+                font-family: 'Orbitron', sans-serif;
+                font-size: 14px;
+                color: black;
+                position: absolute;
+                top: 350px;
+                right: 50px;
+                left: 50px;
+                bottom: 30px;
+                margin: auto;
+                transform: scale(0) rotate(0deg);
+                transition-duration: .5s;
+                transition-delay:1s;
+              }
+            .tres1:hover article a {
+              transform:scale(1) rotate(360deg);
+              }
+
+
+              .tres2 {
+                position: absolute;
+                left: -340px;
+                top: 10px;
+                right: 0px;
+                bottom: 0px;
+                margin: auto;
+                width: 250px;
+                height: 400px;
+                overflow: hidden;              
+              }
+              .tres2 img {
+                width: 250px;
+                height: 400px;
+              }
+          
+              .tres2 article {
+                  width: 250px;
+                  height: 400px;
+                  background-color: rgba(182, 101, 9, 0.78);
+                  position: absolute;
+                  left: 0px;
+                  top: 0px;
+                  transform: scale(0) rotate(0deg);
+                  transition-duration: .5s;
+                  text-align: center;
+                }
+          
+              .tres2:hover article {
+                transform:scale(1) rotate(360deg);
+                }
+          
+              .tres2 article h4 {
+                  text-align: center;
+                  color: #FFFFFF;
+                  padding:20px 20px;
+                  transform: scale(0);
+                  transition-duration: .5s;
+                  transition-delay: 1s ;
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 16px;
+                  margin: 5px;
+                  overflow: hidden;
+                }
+          
+              .tres2:hover article h4 {
+                transform: scale(1);
+                }
+          
+              .tres2 article p {
+                  font-family: Arial, Helvetica, sans-serif;
+                  text-align: justify;
+                  font-size: 14px;
+                  color: #FFFFFF;
+                  position: absolute;
+                  top: 70px;
+                  left: 8px;
+                  right: 8px;
+                  bottom: 0px;
+                  margin: auto;
+                  transform: scale(0);
+                  transition-duration: .5s;
+                  transition-delay: 1s;
+                }
+              .tres2:hover article p {
+                transform: scale(1);
+                }
+              .tres2 article a {
+                  background-color: silver;
+                  border: 2px solid #FFFFFF;
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 14px;
+                  color: black;
+                  position: absolute;
+                  top: 350px;
+                  right: 50px;
+                  left: 50px;
+                  bottom: 30px;
+                  margin: auto;
+                  transform: scale(0) rotate(0deg);
+                  transition-duration: .5s;
+                  transition-delay:1s;
+                }
+              .tres2:hover article a {
+                transform:scale(1) rotate(360deg);
+                }
+  
+
+                .tres3 {
+                  position: absolute;
+                  left: 330px;
+                  top: 10px;
+                  right: 0px;
+                  bottom: 0px;
+                  margin: auto;
+                  width: 250px;
+                  height: 400px;
+                  overflow: hidden;              
+                }
+                .tres3 img {
+                  width: 250px;
+                  height: 400px;
+                }
+            
+                .tres3 article {
+                    width: 250px;
+                    height: 400px;
+                    background-color: rgba(68, 2, 112, 0.66);
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    transform: scale(0) rotate(0deg);
+                    transition-duration: .5s;
+                    text-align: center;
+                  }
+            
+                .tres3:hover article {
+                  transform:scale(1) rotate(360deg);
+                  }
+            
+                .tres3 article h4 {
+                    text-align: center;
+                    color: #FFFFFF;
+                    padding:20px 20px;
+                    transform: scale(0);
+                    transition-duration: .5s;
+                    transition-delay: 1s ;
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 16px;
+                    margin: 5px;
+                    overflow: hidden;
+                  }
+            
+                .tres3:hover article h4 {
+                  transform: scale(1);
+                  }
+            
+                .tres3 article p {
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: justify;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    position: absolute;
+                    top: 90px;
+                    left: 8px;
+                    right: 8px;
+                    bottom: 0px;
+                    margin: auto;
+                    transform: scale(0);
+                    transition-duration: .5s;
+                    transition-delay: 1s;
+                  }
+                .tres3:hover article p {
+                  transform: scale(1);
+                  }
+                .tres3 article a {
+                    background-color: silver;
+                    border: 2px solid #FFFFFF;
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 14px;
+                    color: black;
+                    position: absolute;
+                    top: 350px;
+                    right: 50px;
+                    left: 50px;
+                    bottom: 30px;
+                    margin: auto;
+                    transform: scale(0) rotate(0deg);
+                    transition-duration: .5s;
+                    transition-delay:1s;
+                  }
+                .tres3:hover article a {
+                  transform:scale(1) rotate(360deg);
+                  }
+    
+                    
+
+                  .tres4 {
+                    position: absolute;
+                    left: 1000px;
+                    top: 10px;
+                    right: 0px;
+                    bottom: 0px;
+                    margin: auto;
+                    width: 250px;
+                    height: 400px;
+                    overflow: hidden;             
+                  }
+                  .tres4 img {
+                    width: 250px;
+                    height: 400px;
+                  }
+              
+                  .tres4 article {
+                      width: 250px;
+                      height: 400px;
+                      background-color: rgba(0, 0, 65, 0.81);
+                      position: absolute;
+                      left: 0px;
+                      top: 0px;
+                      transform: scale(0) rotate(0deg);
+                      transition-duration: .5s;
+                      text-align: center;
+                    }
+              
+                  .tres4:hover article {
+                    transform:scale(1) rotate(360deg);
+                    }
+              
+                  .tres4 article h4 {
+                      text-align: center;
+                      color: #FFFFFF;
+                      padding:20px 20px;
+                      transform: scale(0);
+                      transition-duration: .5s;
+                      transition-delay: 1s ;
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 16px;
+                      margin: 5px;
+                      overflow: hidden;
+                    }
+              
+                  .tres4:hover article h4 {
+                    transform: scale(1);
+                    }
+              
+                  .tres4 article p {
+                      font-family: Arial, Helvetica, sans-serif;
+                      text-align: justify;
+                      font-size: 14px;
+                      color: #FFFFFF;
+                      position: absolute;
+                      top: 90px;
+                      left: 8px;
+                      right: 8px;
+                      bottom: 0px;
+                      margin: auto;
+                      transform: scale(0);
+                      transition-duration: .5s;
+                      transition-delay: 1s;
+                    }
+                  .tres4:hover article p {
+                    transform: scale(1);
+                    }
+                  .tres4 article a {
+                      background-color: silver;
+                      border: 2px solid #FFFFFF;
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 14px;
+                      color: black;
+                      position: absolute;
+                      top: 350px;
+                      right: 50px;
+                      left: 50px;
+                      bottom: 30px;
+                      margin: auto;
+                      transform: scale(0) rotate(0deg);
+                      transition-duration: .5s;
+                      transition-delay:1s;
+                    }
+                  .tres4:hover article a {
+                    transform:scale(1) rotate(360deg);
+                    }
+
+           
+
+            /*******************************************PAGINA CUATRO***************************************/
+            .pagina4{
+              width: auto;
+              height: 700px;
+              background-color: #263238c5;
+              margin: auto;
+            }
+            
+            .cuatro1 {
+              position: absolute;
+              left: 80px;
+              top: 10px;
+              bottom: 0px;
+              margin: auto;
+              width: 250px;
+              height: 400px;
+              overflow: hidden;              
+            }
+            .cuatro1 img {
+              width: 250px;
+              height: 400px;
+            }
+        
+            .cuatro1 article {
+                width: 250px;
+                height: 400px;
+                background-color: rgba(21, 104, 124, 0.78);
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                transform: scale(0) rotate(0deg);
+                transition-duration: .5s;
+                text-align: center;
+              }
+        
+            .cuatro1:hover article {
+              transform:scale(1) rotate(360deg);
+              }
+        
+            .cuatro1 article h4 {
+                text-align: center;
+                color: #FFFFFF;
+                padding:20px 20px;
+                transform: scale(0);
+                transition-duration: .5s;
+                transition-delay: 1s ;
+                font-family: 'Orbitron', sans-serif;
+                font-size: 16px;
+                margin: 5px;
+                overflow: hidden;
+              }
+        
+            .cuatro1:hover article h4 {
+              transform: scale(1);
+              }
+        
+            .cuatro1 article p {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+                font-size: 14px;
+                color: #FFFFFF;
+                position: absolute;
+                top: 70px;
+                left: 8px;
+                right: 8px;
+                bottom: 0px;
+                margin: auto;
+                transform: scale(0);
+                transition-duration: .5s;
+                transition-delay: 1s;
+              }
+            .cuatro1:hover article p {
+              transform: scale(1);
+              }
+            .cuatro1 article a {
+                background-color: silver;
+                border: 2px solid #FFFFFF;
+                font-family: 'Orbitron', sans-serif;
+                font-size: 14px;
+                color: black;
+                position: absolute;
+                top: 350px;
+                right: 50px;
+                left: 50px;
+                bottom: 30px;
+                margin: auto;
+                transform: scale(0) rotate(0deg);
+                transition-duration: .5s;
+                transition-delay:1s;
+              }
+            .cuatro1:hover article a {
+              transform:scale(1) rotate(360deg);
+              }
+
+
+              .cuatro2 {
+                position: absolute;
+                left: -340px;
+                top: 10px;
+                right: 0px;
+                bottom: 0px;
+                margin: auto;
+                width: 250px;
+                height: 400px;
+                overflow: hidden;              
+              }
+              .cuatro2 img {
+                width: 250px;
+                height: 400px;
+              }
+          
+              .cuatro2 article {
+                  width: 250px;
+                  height: 400px;
+                  background-color: rgba(182, 101, 9, 0.78);
+                  position: absolute;
+                  left: 0px;
+                  top: 0px;
+                  transform: scale(0) rotate(0deg);
+                  transition-duration: .5s;
+                  text-align: center;
+                }
+          
+              .cuatro2:hover article {
+                transform:scale(1) rotate(360deg);
+                }
+          
+              .cuatro2 article h4 {
+                  text-align: center;
+                  color: #FFFFFF;
+                  padding:20px 20px;
+                  transform: scale(0);
+                  transition-duration: .5s;
+                  transition-delay: 1s ;
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 16px;
+                  margin: 5px;
+                  overflow: hidden;
+                }
+          
+              .cuatro2:hover article h4 {
+                transform: scale(1);
+                }
+          
+              .cuatro2 article p {
+                  font-family: Arial, Helvetica, sans-serif;
+                  text-align: justify;
+                  font-size: 14px;
+                  color: #FFFFFF;
+                  position: absolute;
+                  top: 70px;
+                  left: 8px;
+                  right: 8px;
+                  bottom: 0px;
+                  margin: auto;
+                  transform: scale(0);
+                  transition-duration: .5s;
+                  transition-delay: 1s;
+                }
+              .cuatro2:hover article p {
+                transform: scale(1);
+                }
+              .cuatro2 article a {
+                  background-color: silver;
+                  border: 2px solid #FFFFFF;
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 14px;
+                  color: black;
+                  position: absolute;
+                  top: 350px;
+                  right: 50px;
+                  left: 50px;
+                  bottom: 30px;
+                  margin: auto;
+                  transform: scale(0) rotate(0deg);
+                  transition-duration: .5s;
+                  transition-delay:1s;
+                }
+              .cuatro2:hover article a {
+                transform:scale(1) rotate(360deg);
+                }
+  
+
+                .cuatro3 {
+                  position: absolute;
+                  left: 330px;
+                  top: 10px;
+                  right: 0px;
+                  bottom: 0px;
+                  margin: auto;
+                  width: 250px;
+                  height: 400px;
+                  overflow: hidden;              
+                }
+                .cuatro3 img {
+                  width: 250px;
+                  height: 400px;
+                }
+            
+                .cuatro3 article {
+                    width: 250px;
+                    height: 400px;
+                    background-color: rgba(112, 46, 2, 0.66);
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    transform: scale(0) rotate(0deg);
+                    transition-duration: .5s;
+                    text-align: center;
+                  }
+            
+                .cuatro3:hover article {
+                  transform:scale(1) rotate(360deg);
+                  }
+            
+                .cuatro3 article h4 {
+                    text-align: center;
+                    color: #FFFFFF;
+                    padding:20px 20px;
+                    transform: scale(0);
+                    transition-duration: .5s;
+                    transition-delay: 1s ;
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 16px;
+                    margin: 5px;
+                    overflow: hidden;
+                  }
+            
+                .cuatro3:hover article h4 {
+                  transform: scale(1);
+                  }
+            
+                .cuatro3 article p {
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: justify;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    position: absolute;
+                    top: 90px;
+                    left: 8px;
+                    right: 8px;
+                    bottom: 0px;
+                    margin: auto;
+                    transform: scale(0);
+                    transition-duration: .5s;
+                    transition-delay: 1s;
+                  }
+                .cuatro3:hover article p {
+                  transform: scale(1);
+                  }
+                .cuatro3 article a {
+                    background-color: silver;
+                    border: 2px solid #FFFFFF;
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 14px;
+                    color: black;
+                    position: absolute;
+                    top: 350px;
+                    right: 50px;
+                    left: 50px;
+                    bottom: 30px;
+                    margin: auto;
+                    transform: scale(0) rotate(0deg);
+                    transition-duration: .5s;
+                    transition-delay:1s;
+                  }
+                .cuatro3:hover article a {
+                  transform:scale(1) rotate(360deg);
+                  }
+    
+                    
+
+                  .cuatro4 {
+                    position: absolute;
+                    left: 1000px;
+                    top: 10px;
+                    right: 0px;
+                    bottom: 0px;
+                    margin: auto;
+                    width: 250px;
+                    height: 400px;
+                    overflow: hidden;             
+                  }
+                  .cuatro4 img {
+                    width: 250px;
+                    height: 400px;
+                  }
+              
+                  .cuatro4 article {
+                      width: 250px;
+                      height: 400px;
+                      background-color: rgba(0, 0, 65, 0.81);
+                      position: absolute;
+                      left: 0px;
+                      top: 0px;
+                      transform: scale(0) rotate(0deg);
+                      transition-duration: .5s;
+                      text-align: center;
+                    }
+              
+                  .cuatro4:hover article {
+                    transform:scale(1) rotate(360deg);
+                    }
+              
+                  .cuatro4 article h4 {
+                      text-align: center;
+                      color: #FFFFFF;
+                      padding:20px 20px;
+                      transform: scale(0);
+                      transition-duration: .5s;
+                      transition-delay: 1s ;
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 16px;
+                      margin: 5px;
+                      overflow: hidden;
+                    }
+              
+                  .cuatro4:hover article h4 {
+                    transform: scale(1);
+                    }
+              
+                  .cuatro4 article p {
+                      font-family: Arial, Helvetica, sans-serif;
+                      text-align: justify;
+                      font-size: 14px;
+                      color: #FFFFFF;
+                      position: absolute;
+                      top: 90px;
+                      left: 8px;
+                      right: 8px;
+                      bottom: 0px;
+                      margin: auto;
+                      transform: scale(0);
+                      transition-duration: .5s;
+                      transition-delay: 1s;
+                    }
+                  .cuatro4:hover article p {
+                    transform: scale(1);
+                    }
+                  .cuatro4 article a {
+                      background-color: silver;
+                      border: 2px solid #FFFFFF;
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 14px;
+                      color: black;
+                      position: absolute;
+                      top: 350px;
+                      right: 50px;
+                      left: 50px;
+                      bottom: 30px;
+                      margin: auto;
+                      transform: scale(0) rotate(0deg);
+                      transition-duration: .5s;
+                      transition-delay:1s;
+                    }
+                  .cuatro4:hover article a {
+                    transform:scale(1) rotate(360deg);
+                    }
+                    /****************PAGINA CINCO****************************************/
+                    .pagina5{
+                      width: auto;
+                      height: 700px;
+                      background-color: #263238c5;
+                      margin: auto;
+                    }
+                    
+                    .cinco1 {
+                      position: absolute;
+                      left: 80px;
+                      top: 10px;
+                      bottom: 0px;
+                      margin: auto;
+                      width: 250px;
+                      height: 400px;
+                      overflow: hidden;              
+                    }
+                    .cinco1 img {
+                      width: 250px;
+                      height: 400px;
+                    }
+                
+                    .cinco1 article {
+                        width: 250px;
+                        height: 400px;
+                        background-color: rgba(160, 51, 0, 0.78);
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        transform: scale(0) rotate(0deg);
+                        transition-duration: .5s;
+                        text-align: center;
+                      }
+                
+                    .cinco1:hover article {
+                      transform:scale(1) rotate(360deg);
+                      }
+                
+                    .cinco1 article h4 {
+                        text-align: center;
+                        color: #FFFFFF;
+                        padding:20px 20px;
+                        transform: scale(0);
+                        transition-duration: .5s;
+                        transition-delay: 1s ;
+                        font-family: 'Orbitron', sans-serif;
+                        font-size: 16px;
+                        margin: 5px;
+                        overflow: hidden;
+                      }
+                
+                    .cinco1:hover article h4 {
+                      transform: scale(1);
+                      }
+                
+                    .cinco1 article p {
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-align: justify;
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        top: 70px;
+                        left: 8px;
+                        right: 8px;
+                        bottom: 0px;
+                        margin: auto;
+                        transform: scale(0);
+                        transition-duration: .5s;
+                        transition-delay: 1s;
+                      }
+                    .cinco1:hover article p {
+                      transform: scale(1);
+                      }
+                    .cinco1 article a {
+                        background-color: silver;
+                        border: 2px solid #FFFFFF;
+                        font-family: 'Orbitron', sans-serif;
+                        font-size: 14px;
+                        color: black;
+                        position: absolute;
+                        top: 350px;
+                        right: 50px;
+                        left: 50px;
+                        bottom: 30px;
+                        margin: auto;
+                        transform: scale(0) rotate(0deg);
+                        transition-duration: .5s;
+                        transition-delay:1s;
+                      }
+                    .cinco1:hover article a {
+                      transform:scale(1) rotate(360deg);
+                      }
+        
+        
+                      .cinco2 {
+                        position: absolute;
+                        left: -340px;
+                        top: 10px;
+                        right: 0px;
+                        bottom: 0px;
+                        margin: auto;
+                        width: 250px;
+                        height: 400px;
+                        overflow: hidden;              
+                      }
+                      .cinco2 img {
+                        width: 250px;
+                        height: 400px;
+                      }
+                  
+                      .cinco2 article {
+                          width: 250px;
+                          height: 400px;
+                          background-color: rgba(43, 0, 143, 0.78);
+                          position: absolute;
+                          left: 0px;
+                          top: 0px;
+                          transform: scale(0) rotate(0deg);
+                          transition-duration: .5s;
+                          text-align: center;
+                        }
+                  
+                      .cinco2:hover article {
+                        transform:scale(1) rotate(360deg);
+                        }
+                  
+                      .cinco2 article h4 {
+                          text-align: center;
+                          color: #FFFFFF;
+                          padding:20px 20px;
+                          transform: scale(0);
+                          transition-duration: .5s;
+                          transition-delay: 1s ;
+                          font-family: 'Orbitron', sans-serif;
+                          font-size: 16px;
+                          margin: 5px;
+                          overflow: hidden;
+                        }
+                  
+                      .cinco2:hover article h4 {
+                        transform: scale(1);
+                        }
+                  
+                      .cinco2 article p {
+                          font-family: Arial, Helvetica, sans-serif;
+                          text-align: justify;
+                          font-size: 14px;
+                          color: #FFFFFF;
+                          position: absolute;
+                          top: 70px;
+                          left: 8px;
+                          right: 8px;
+                          bottom: 0px;
+                          margin: auto;
+                          transform: scale(0);
+                          transition-duration: .5s;
+                          transition-delay: 1s;
+                        }
+                      .cinco2:hover article p {
+                        transform: scale(1);
+                        }
+                      .cinco2 article a {
+                          background-color: silver;
+                          border: 2px solid #FFFFFF;
+                          font-family: 'Orbitron', sans-serif;
+                          font-size: 14px;
+                          color: black;
+                          position: absolute;
+                          top: 350px;
+                          right: 50px;
+                          left: 50px;
+                          bottom: 30px;
+                          margin: auto;
+                          transform: scale(0) rotate(0deg);
+                          transition-duration: .5s;
+                          transition-delay:1s;
+                        }
+                      .cinco2:hover article a {
+                        transform:scale(1) rotate(360deg);
+                        }
+          
+        
+                        .cinco3 {
+                          position: absolute;
+                          left: 330px;
+                          top: 10px;
+                          right: 0px;
+                          bottom: 0px;
+                          margin: auto;
+                          width: 250px;
+                          height: 400px;
+                          overflow: hidden;              
+                        }
+                        .cinco3 img {
+                          width: 250px;
+                          height: 400px;
+                        }
+                    
+                        .cinco3 article {
+                            width: 250px;
+                            height: 400px;
+                            background-color: rgba(0, 165, 157, 0.66);
+                            position: absolute;
+                            left: 0px;
+                            top: 0px;
+                            transform: scale(0) rotate(0deg);
+                            transition-duration: .5s;
+                            text-align: center;
+                          }
+                    
+                        .cinco3:hover article {
+                          transform:scale(1) rotate(360deg);
+                          }
+                    
+                        .cinco3 article h4 {
+                            text-align: center;
+                            color: #FFFFFF;
+                            padding:20px 20px;
+                            transform: scale(0);
+                            transition-duration: .5s;
+                            transition-delay: 1s ;
+                            font-family: 'Orbitron', sans-serif;
+                            font-size: 16px;
+                            margin: 5px;
+                            overflow: hidden;
+                          }
+                    
+                        .cinco3:hover article h4 {
+                          transform: scale(1);
+                          }
+                    
+                        .cinco3 article p {
+                            font-family: Arial, Helvetica, sans-serif;
+                            text-align: justify;
+                            font-size: 14px;
+                            color: #FFFFFF;
+                            position: absolute;
+                            top: 90px;
+                            left: 8px;
+                            right: 8px;
+                            bottom: 0px;
+                            margin: auto;
+                            transform: scale(0);
+                            transition-duration: .5s;
+                            transition-delay: 1s;
+                          }
+                        .cinco3:hover article p {
+                          transform: scale(1);
+                          }
+                        .cinco3 article a {
+                            background-color: silver;
+                            border: 2px solid #FFFFFF;
+                            font-family: 'Orbitron', sans-serif;
+                            font-size: 14px;
+                            color: black;
+                            position: absolute;
+                            top: 350px;
+                            right: 50px;
+                            left: 50px;
+                            bottom: 30px;
+                            margin: auto;
+                            transform: scale(0) rotate(0deg);
+                            transition-duration: .5s;
+                            transition-delay:1s;
+                          }
+                        .cinco3:hover article a {
+                          transform:scale(1) rotate(360deg);
+                          }
+            
+                            
+        
+                          .cinco4 {
+                            position: absolute;
+                            left: 1000px;
+                            top: 10px;
+                            right: 0px;
+                            bottom: 0px;
+                            margin: auto;
+                            width: 250px;
+                            height: 400px;
+                            overflow: hidden;             
+                          }
+                          .cinco4 img {
+                            width: 250px;
+                            height: 400px;
+                          }
+                      
+                          .cinco4 article {
+                              width: 250px;
+                              height: 400px;
+                              background-color: rgba(0, 7, 65, 0.81);
+                              position: absolute;
+                              left: 0px;
+                              top: 0px;
+                              transform: scale(0) rotate(0deg);
+                              transition-duration: .5s;
+                              text-align: center;
+                            }
+                      
+                          .cinco4:hover article {
+                            transform:scale(1) rotate(360deg);
+                            }
+                      
+                          .cinco4 article h4 {
+                              text-align: center;
+                              color: #FFFFFF;
+                              padding:20px 20px;
+                              transform: scale(0);
+                              transition-duration: .5s;
+                              transition-delay: 1s ;
+                              font-family: 'Orbitron', sans-serif;
+                              font-size: 16px;
+                              margin: 5px;
+                              overflow: hidden;
+                            }
+                      
+                          .cinco4:hover article h4 {
+                            transform: scale(1);
+                            }
+                      
+                          .cinco4 article p {
+                              font-family: Arial, Helvetica, sans-serif;
+                              text-align: justify;
+                              font-size: 14px;
+                              color: #FFFFFF;
+                              position: absolute;
+                              top: 90px;
+                              left: 8px;
+                              right: 8px;
+                              bottom: 0px;
+                              margin: auto;
+                              transform: scale(0);
+                              transition-duration: .5s;
+                              transition-delay: 1s;
+                            }
+                          .cinco4:hover article p {
+                            transform: scale(1);
+                            }
+                          .cinco4 article a {
+                              background-color: silver;
+                              border: 2px solid #FFFFFF;
+                              font-family: 'Orbitron', sans-serif;
+                              font-size: 14px;
+                              color: black;
+                              position: absolute;
+                              top: 350px;
+                              right: 50px;
+                              left: 50px;
+                              bottom: 30px;
+                              margin: auto;
+                              transform: scale(0) rotate(0deg);
+                              transition-duration: .5s;
+                              transition-delay:1s;
+                            }
+                          .cinco4:hover article a {
+                            transform:scale(1) rotate(360deg);
+                            }
+              /****************************************************pagina 6************************************************/
+
+              .pagina6{
+                width: auto;
+                height: 700px;
+                background-color: #263238c5;
+                margin: auto;
+              }
+              
+              .seis1 {
+                position: absolute;
+                left: 80px;
+                top: 10px;
+                bottom: 0px;
+                margin: auto;
+                width: 250px;
+                height: 400px;
+                overflow: hidden;              
+              }
+              .seis1 img {
+                width: 250px;
+                height: 400px;
+              }
+          
+              .seis1 article {
+                  width: 250px;
+                  height: 400px;
+                  background-color: rgba(59, 145, 3, 0.68);
+                  position: absolute;
+                  left: 0px;
+                  top: 0px;
+                  transform: scale(0) rotate(0deg);
+                  transition-duration: .5s;
+                  text-align: center;
+                }
+          
+              .seis1:hover article {
+                transform:scale(1) rotate(360deg);
+                }
+          
+              .seis1 article h4 {
+                  text-align: center;
+                  color: #FFFFFF;
+                  padding:20px 20px;
+                  transform: scale(0);
+                  transition-duration: .5s;
+                  transition-delay: 1s ;
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 16px;
+                  margin: 5px;
+                  overflow: hidden;
+                }
+          
+              .seis1:hover article h4 {
+                transform: scale(1);
+                }
+          
+              .seis1 article p {
+                  font-family: Arial, Helvetica, sans-serif;
+                  text-align: justify;
+                  font-size: 14px;
+                  color: #FFFFFF;
+                  position: absolute;
+                  top: 70px;
+                  left: 8px;
+                  right: 8px;
+                  bottom: 0px;
+                  margin: auto;
+                  transform: scale(0);
+                  transition-duration: .5s;
+                  transition-delay: 1s;
+                }
+              .seis1:hover article p {
+                transform: scale(1);
+                }
+              .seis1 article a {
+                  background-color: silver;
+                  border: 2px solid #FFFFFF;
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 14px;
+                  color: black;
+                  position: absolute;
+                  top: 350px;
+                  right: 50px;
+                  left: 50px;
+                  bottom: 30px;
+                  margin: auto;
+                  transform: scale(0) rotate(0deg);
+                  transition-duration: .5s;
+                  transition-delay:1s;
+                }
+              .seis1:hover article a {
+                transform:scale(1) rotate(360deg);
+                }
+  
+  
+                .seis2 {
+                  position: absolute;
+                  left: -340px;
+                  top: 10px;
+                  right: 0px;
+                  bottom: 0px;
+                  margin: auto;
+                  width: 250px;
+                  height: 400px;
+                  overflow: hidden;              
+                }
+                .seis2 img {
+                  width: 250px;
+                  height: 400px;
+                }
+            
+                .seis2 article {
+                    width: 250px;
+                    height: 400px;
+                    background-color: rgba(145, 130, 0, 0.78);
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    transform: scale(0) rotate(0deg);
+                    transition-duration: .5s;
+                    text-align: center;
+                  }
+            
+                .seis2:hover article {
+                  transform:scale(1) rotate(360deg);
+                  }
+            
+                .seis2 article h4 {
+                    text-align: center;
+                    color: #FFFFFF;
+                    padding:20px 20px;
+                    transform: scale(0);
+                    transition-duration: .5s;
+                    transition-delay: 1s ;
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 16px;
+                    margin: 5px;
+                    overflow: hidden;
+                  }
+            
+                .seis2:hover article h4 {
+                  transform: scale(1);
+                  }
+            
+                .seis2 article p {
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: justify;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    position: absolute;
+                    top: 70px;
+                    left: 8px;
+                    right: 8px;
+                    bottom: 0px;
+                    margin: auto;
+                    transform: scale(0);
+                    transition-duration: .5s;
+                    transition-delay: 1s;
+                  }
+                .seis2:hover article p {
+                  transform: scale(1);
+                  }
+                .seis2 article a {
+                    background-color: silver;
+                    border: 2px solid #FFFFFF;
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 14px;
+                    color: black;
+                    position: absolute;
+                    top: 350px;
+                    right: 50px;
+                    left: 50px;
+                    bottom: 30px;
+                    margin: auto;
+                    transform: scale(0) rotate(0deg);
+                    transition-duration: .5s;
+                    transition-delay:1s;
+                  }
+                .seis2:hover article a {
+                  transform:scale(1) rotate(360deg);
+                  }
+    
+  
+                  .seis3 {
+                    position: absolute;
+                    left: 330px;
+                    top: 10px;
+                    right: 0px;
+                    bottom: 0px;
+                    margin: auto;
+                    width: 250px;
+                    height: 400px;
+                    overflow: hidden;              
+                  }
+                  .seis3 img {
+                    width: 250px;
+                    height: 400px;
+                  }
+              
+                  .seis3 article {
+                      width: 250px;
+                      height: 400px;
+                      background-color: rgba(165, 0, 0, 0.66);
+                      position: absolute;
+                      left: 0px;
+                      top: 0px;
+                      transform: scale(0) rotate(0deg);
+                      transition-duration: .5s;
+                      text-align: center;
+                    }
+              
+                  .seis3:hover article {
+                    transform:scale(1) rotate(360deg);
+                    }
+              
+                  .seis3 article h4 {
+                      text-align: center;
+                      color: #FFFFFF;
+                      padding:20px 20px;
+                      transform: scale(0);
+                      transition-duration: .5s;
+                      transition-delay: 1s ;
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 16px;
+                      margin: 5px;
+                      overflow: hidden;
+                    }
+              
+                  .seis3:hover article h4 {
+                    transform: scale(1);
+                    }
+              
+                  .seis3 article p {
+                      font-family: Arial, Helvetica, sans-serif;
+                      text-align: justify;
+                      font-size: 14px;
+                      color: #FFFFFF;
+                      position: absolute;
+                      top: 90px;
+                      left: 8px;
+                      right: 8px;
+                      bottom: 0px;
+                      margin: auto;
+                      transform: scale(0);
+                      transition-duration: .5s;
+                      transition-delay: 1s;
+                    }
+                  .seis3:hover article p {
+                    transform: scale(1);
+                    }
+                  .seis3 article a {
+                      background-color: silver;
+                      border: 2px solid #FFFFFF;
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 14px;
+                      color: black;
+                      position: absolute;
+                      top: 350px;
+                      right: 50px;
+                      left: 50px;
+                      bottom: 30px;
+                      margin: auto;
+                      transform: scale(0) rotate(0deg);
+                      transition-duration: .5s;
+                      transition-delay:1s;
+                    }
+                  .seis3:hover article a {
+                    transform:scale(1) rotate(360deg);
+                    }
+      
+                      
+  
+                    .seis4 {
+                      position: absolute;
+                      left: 1000px;
+                      top: 10px;
+                      right: 0px;
+                      bottom: 0px;
+                      margin: auto;
+                      width: 250px;
+                      height: 400px;
+                      overflow: hidden;             
+                    }
+                    .seis4 img {
+                      width: 250px;
+                      height: 400px;
+                    }
+                
+                    .seis4 article {
+                        width: 250px;
+                        height: 400px;
+                        background-color: rgba(65, 0, 0, 0.81);
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        transform: scale(0) rotate(0deg);
+                        transition-duration: .5s;
+                        text-align: center;
+                      }
+                
+                    .seis4:hover article {
+                      transform:scale(1) rotate(360deg);
+                      }
+                
+                    .seis4 article h4 {
+                        text-align: center;
+                        color: #FFFFFF;
+                        padding:20px 20px;
+                        transform: scale(0);
+                        transition-duration: .5s;
+                        transition-delay: 1s ;
+                        font-family: 'Orbitron', sans-serif;
+                        font-size: 16px;
+                        margin: 5px;
+                        overflow: hidden;
+                      }
+                
+                    .seis4:hover article h4 {
+                      transform: scale(1);
+                      }
+                
+                    .seis4 article p {
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-align: justify;
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        top: 90px;
+                        left: 8px;
+                        right: 8px;
+                        bottom: 0px;
+                        margin: auto;
+                        transform: scale(0);
+                        transition-duration: .5s;
+                        transition-delay: 1s;
+                      }
+                    .seis4:hover article p {
+                      transform: scale(1);
+                      }
+                    .seis4 article a {
+                        background-color: silver;
+                        border: 2px solid #FFFFFF;
+                        font-family: 'Orbitron', sans-serif;
+                        font-size: 14px;
+                        color: black;
+                        position: absolute;
+                        top: 350px;
+                        right: 50px;
+                        left: 50px;
+                        bottom: 30px;
+                        margin: auto;
+                        transform: scale(0) rotate(0deg);
+                        transition-duration: .5s;
+                        transition-delay:1s;
+                      }
+                    .seis4:hover article a {
+                      transform:scale(1) rotate(360deg);
+                      }
+                      /****************************2049************************************************************************/
+                      .blade{
+                        width: auto;
+                        height: 840px;
+                        margin: auto;
+                      }
+                      .blade article{
+                        width: 220px;
+                        height: 350px;
+                        text-align: center;
+                      }
+
+                      .blade img:first-child{
+                        width: 1420px;
+                        height: 845px;
+                        position: absolute;
+                        opacity: 0.5;
+                        float: left;
+                        margin: auto;
+                      }
+                      .blade img:nth-child(2){
+                        width: 220px;
+                        height: 350px;
+                        position: relative;
+                        left: 30px;
+                        top: 80px;
+                        -webkit-box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                        -moz-box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                        box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                      }
+                      .blade h1{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 20px;
+                        color: #FFFFFF;
+                        position: relative;
+                        margin: 50px 0px 0px 300px
+                      }
+                      .blade h3{
+                        font-family: 'Orbitron', sans-serif;
+                        font-size: 25px;
+                        color: #FFFFFF;
+                        position: relative;
+                        margin: 40px 900px 0px -335px
+                       }
+                      .blade h4{
+                        color: #FFFFFF;
+                        position: relative;
+                        font-family: 'Orbitron', sans-serif;
+                        font-size: 35px;
+                        margin: -328px 0px 0px 0px;
+                     }
+                     .blade p{
+                      font-family: Arial, Helvetica, sans-serif;
+                      font-size: 16px;
+                      text-align: justify;
+                      color: #FFFFFF;
+                      position: relative;
+                      margin: -10px -1000px 0px -350px
+                     }
+                     
+                     
+
+                  
+                     
