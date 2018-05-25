@@ -57,8 +57,6 @@
    .form{
        border-bottom: solid 2px #FBFF00;
       }
-
-
  .inicio{
      width: auto;
      height: 1100px;
@@ -114,16 +112,13 @@
       margin: auto;
     }
     
-    .uno1 {
-      position: absolute;
-      left: 30px;
-      top: 1000px;
-      bottom: 0px;
-      margin: auto;
+    .uno1, .uno2, .uno3, .uno4, .uno5, .uno6 {
+      margin-top: 40px;
+      position: relative;
       width: 200px;
       height: 280px;
+      display: inline-block;
       overflow: hidden;
-      
     }
     .uno2 img {
       width: 200px;
@@ -199,19 +194,6 @@
     .uno1:hover article a {
         transform: translateY(0px);
       }
-
-    .uno2{
-      position: absolute;
-      left: -607px;
-      right: 90px;
-      top: 1000px;
-      bottom: 0px;
-      margin: auto;
-      width: 200px;
-      height: 280px;
-      overflow: hidden;
-      
-    }
     .uno2 img {
       width: 200px;
       height: 280px;
@@ -287,18 +269,7 @@
     .uno2:hover article a {
         transform: translateY(0px);
       }
-      .uno3{
-        position: absolute;
-        left: -100px;
-        right: 130px;
-        top: 1000px;
-        bottom: 0px;
-        margin: auto;
-        width: 200px;
-        height: 280px;
-        overflow: hidden;
-        
-      }
+      
       .uno3 img {
         width: 200px;
         height: 280px;
@@ -375,18 +346,7 @@
           transform: translateY(0px);
         }
         
-        .uno4{
-          position: absolute;
-          left: 260px;
-          right: 25px;
-          top: 1000px;
-          bottom: 0px;
-          margin: auto;
-          width: 200px;
-          height: 280px;
-          overflow: hidden;
-          
-        }
+        
         .uno4 img {
           width: 200px;
           height: 280px;
@@ -463,18 +423,7 @@
             transform: translateY(0px);
           }
           
-          .uno5{
-            position: absolute;
-            left: 501px;
-            right: -200px;
-            top: 1000px;
-            bottom: 0px;
-            margin: auto;
-            width: 200px;
-            height: 280px;
-            overflow: hidden;
-            
-          }
+          
           .uno5 img {
             width: 200px;
             height: 280px;
@@ -551,18 +500,7 @@
               transform: translateY(0px);
             }
             
-            .uno6{
-              position: absolute;
-              left: 745px;
-              right: -418px;
-              top: 1000px;
-              bottom: 0px;
-              margin: auto;
-              width: 200px;
-              height: 280px;
-              overflow: hidden;
-              
-            }
+            
             .uno6 img {
               width: 200px;
               height: 280px;
