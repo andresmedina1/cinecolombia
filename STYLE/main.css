@@ -63,11 +63,28 @@
      background-color: #263238c5;
      margin: auto;
     }
+    /*******************************VIDEO*****************************************/
+    .video-responsive{
+      display: block;
+      width: 100%;
+      height: 600px;
+      top: 0px;
+      position: relative;
+    }
+    .video-responsive  video{
+      width: 100%;
+      height: 600px;
+      background: #263238;
+      background-size: cover;
+      text-align: center;
+    }
+    /******************************slider**************************************/
     .slider{
       width: auto;
       height: 550px;
       margin: auto;
       overflow: hidden;
+      position: relative;
       
     }
     .slider ul{
@@ -107,23 +124,25 @@
       font-size: 30px;
       color: #FFFFFF;
       position: absolute;
-      top:690px;
-      left: 30px;
-      margin: auto;
+      float: left;
+      margin: 20px 30px 10px 50px;
+
     }
     
     .uno1, .uno2, .uno3, .uno4, .uno5, .uno6 {
-      margin-top: 40px;
       position: relative;
       width: 200px;
       height: 280px;
       display: inline-block;
       overflow: hidden;
+      margin: 80px 10px 10px 10px;
     }
-    .uno2 img {
+    uno1, .uno2, .uno3, .uno4, .uno5, .uno6 img {
       width: 200px;
       height: 280px;
     }
+
+
 
     .uno1 article {
         width: 200px;
@@ -133,7 +152,7 @@
         left: 0px;
         top: 0px;
         transform: rotate(90deg) translate(350px ,-350px);
-        transition-duration: .5s;
+        transition-duration: .4s;
         text-align: center;
       }
 
@@ -146,7 +165,7 @@
         color: #000000;
         padding:20px 20px;
         transform: translate(280px,-60px) ;
-        transition-duration: .5s;
+        transition-duration: .3s;
         transition-delay: 1s ;
         font-family: 'Orbitron', sans-serif;
         font-size: 16px;
@@ -168,7 +187,7 @@
         bottom: 0px;
         margin: auto;
         transform: translate(-700px,-390px);
-        transition-duration: .5s;
+        transition-duration: .3s;
         transition-delay: 1s;
       }
     .uno1:hover article p {
@@ -188,16 +207,14 @@
         bottom: 20px;
         margin: auto;
         transform: translateY(160px);
-        transition-duration: .5s;
+        transition-duration: .3s;
         transition-delay:1s;
       }
     .uno1:hover article a {
         transform: translateY(0px);
       }
-    .uno2 img {
-      width: 200px;
-      height: 280px;
-    }
+  
+
 
     .uno2 article {
         width: 200px;
@@ -270,10 +287,8 @@
         transform: translateY(0px);
       }
       
-      .uno3 img {
-        width: 200px;
-        height: 280px;
-      }
+
+
   
       .uno3 article {
           width: 200px;
@@ -346,11 +361,6 @@
           transform: translateY(0px);
         }
         
-        
-        .uno4 img {
-          width: 200px;
-          height: 280px;
-        }
     
         .uno4 article {
             width: 200px;
@@ -423,11 +433,6 @@
             transform: translateY(0px);
           }
           
-          
-          .uno5 img {
-            width: 200px;
-            height: 280px;
-          }
       
           .uno5 article {
               width: 200px;
@@ -498,12 +503,6 @@
             }
           .uno5:hover article a {
               transform: translateY(0px);
-            }
-            
-            
-            .uno6 img {
-              width: 200px;
-              height: 280px;
             }
         
             .uno6 article {
@@ -609,10 +608,10 @@
               background-color: #263238;
               text-align: center;
               position: absolute;
-              top: 1000px;
+              top: 1190px;
               left: 0px;
               right: 0px;
-              bottom: -90px;
+              bottom: -250px;
             }
             .piepag2 img{
                width: 40px;
@@ -627,24 +626,23 @@
              color: #ffffff;
             }
 /****************************************PAGINA DOS*******************************************************************************/
-            .pagina2{
+            .pagina2 {
               width: auto;
-              height: 1000px;
+              height: 1160px;
               background-color: #263238c5;
               margin: auto;
             }
             
-            .dos1 {
-              position: absolute;
-              left: 80px;
-              top: 730px;
-              bottom: 0px;
+            .dos1, .dos2, .dos3, .dos4 {
+              position: relative;
               margin: auto;
               width: 250px;
               height: 400px;
-              overflow: hidden;              
+              overflow: hidden;        
+              display: inline-block; 
+              margin: 60px 20px 0px 30px ;
             }
-            .dos1 img {
+            .dos1, .dos2, .dos3, .dos4 img {
               width: 250px;
               height: 400px;
             }
@@ -720,23 +718,6 @@
               transform:scale(1) rotate(360deg);
               }
 
-
-              .dos2 {
-                position: absolute;
-                left: -340px;
-                top: 730px;
-                right: 0px;
-                bottom: 0px;
-                margin: auto;
-                width: 250px;
-                height: 400px;
-                overflow: hidden;              
-              }
-              .dos2 img {
-                width: 250px;
-                height: 400px;
-              }
-          
               .dos2 article {
                   width: 250px;
                   height: 400px;
@@ -808,23 +789,6 @@
                 transform:scale(1) rotate(360deg);
                 }
   
-
-                .dos3 {
-                  position: absolute;
-                  left: 330px;
-                  top: 730px;
-                  right: 0px;
-                  bottom: 0px;
-                  margin: auto;
-                  width: 250px;
-                  height: 400px;
-                  overflow: hidden;              
-                }
-                .dos3 img {
-                  width: 250px;
-                  height: 400px;
-                }
-            
                 .dos3 article {
                     width: 250px;
                     height: 400px;
@@ -894,24 +858,6 @@
                   }
                 .dos3:hover article a {
                   transform:scale(1) rotate(360deg);
-                  }
-    
-                    
-
-                  .dos4 {
-                    position: absolute;
-                    left: 1000px;
-                    top: 730px;
-                    right: 0px;
-                    bottom: 0px;
-                    margin: auto;
-                    width: 250px;
-                    height: 400px;
-                    overflow: hidden;             
-                  }
-                  .dos4 img {
-                    width: 250px;
-                    height: 400px;
                   }
               
                   .dos4 article {
@@ -987,25 +933,23 @@
 
            
             /****************tercera pagina****************************************************************/
-            
             .pagina3{
               width: auto;
-              height: 1000px;
+              height: 1160px;
               background-color: #263238c5;
               margin: auto;
             }
             
-            .tres1 {
-              position: absolute;
-              left: 80px;
-              top: 770px;
-              bottom: 0px;
+            .tres1, .tres2, .tres3, .tres4{
+              position: relative;
               margin: auto;
               width: 250px;
               height: 400px;
-              overflow: hidden;              
+              overflow: hidden;        
+              display: inline-block; 
+              margin: 60px 20px 0px 30px ;            
             }
-            .tres1 img {
+            .tres1, .tres2, .tres3, .tres4 img {
               width: 250px;
               height: 400px;
             }
@@ -1081,23 +1025,6 @@
               transform:scale(1) rotate(360deg);
               }
 
-
-              .tres2 {
-                position: absolute;
-                left: -340px;
-                top: 770px;
-                right: 0px;
-                bottom: 0px;
-                margin: auto;
-                width: 250px;
-                height: 400px;
-                overflow: hidden;              
-              }
-              .tres2 img {
-                width: 250px;
-                height: 400px;
-              }
-          
               .tres2 article {
                   width: 250px;
                   height: 400px;
@@ -1169,23 +1096,6 @@
                 transform:scale(1) rotate(360deg);
                 }
   
-
-                .tres3 {
-                  position: absolute;
-                  left: 330px;
-                  top: 770px;
-                  right: 0px;
-                  bottom: 0px;
-                  margin: auto;
-                  width: 250px;
-                  height: 400px;
-                  overflow: hidden;              
-                }
-                .tres3 img {
-                  width: 250px;
-                  height: 400px;
-                }
-            
                 .tres3 article {
                     width: 250px;
                     height: 400px;
@@ -1256,25 +1166,7 @@
                 .tres3:hover article a {
                   transform:scale(1) rotate(360deg);
                   }
-    
-                    
 
-                  .tres4 {
-                    position: absolute;
-                    left: 1000px;
-                    top: 770px;
-                    right: 0px;
-                    bottom: 0px;
-                    margin: auto;
-                    width: 250px;
-                    height: 400px;
-                    overflow: hidden;             
-                  }
-                  .tres4 img {
-                    width: 250px;
-                    height: 400px;
-                  }
-              
                   .tres4 article {
                       width: 250px;
                       height: 400px;
@@ -1351,22 +1243,21 @@
             /*******************************************PAGINA CUATRO***************************************/
             .pagina4{
               width: auto;
-              height: 1000px;
+              height: 1160px;
               background-color: #263238c5;
               margin: auto;
             }
             
-            .cuatro1 {
-              position: absolute;
-              left: 80px;
-              top: 730px;
-              bottom: 0px;
+            .cuatro1, .cuatro2, .cuatro3, .cuatro4 {
+              position: relative;
               margin: auto;
               width: 250px;
               height: 400px;
-              overflow: hidden;              
+              overflow: hidden;        
+              display: inline-block; 
+              margin: 60px 20px 0px 30px ;                
             }
-            .cuatro1 img {
+            .cuatro1, .cuatro2, .cuatro3, .cuatro4 img {
               width: 250px;
               height: 400px;
             }
@@ -1442,23 +1333,6 @@
               transform:scale(1) rotate(360deg);
               }
 
-
-              .cuatro2 {
-                position: absolute;
-                left: -340px;
-                top: 730px;
-                right: 0px;
-                bottom: 0px;
-                margin: auto;
-                width: 250px;
-                height: 400px;
-                overflow: hidden;              
-              }
-              .cuatro2 img {
-                width: 250px;
-                height: 400px;
-              }
-          
               .cuatro2 article {
                   width: 250px;
                   height: 400px;
@@ -1529,24 +1403,7 @@
               .cuatro2:hover article a {
                 transform:scale(1) rotate(360deg);
                 }
-  
 
-                .cuatro3 {
-                  position: absolute;
-                  left: 330px;
-                  top: 730px;
-                  right: 0px;
-                  bottom: 0px;
-                  margin: auto;
-                  width: 250px;
-                  height: 400px;
-                  overflow: hidden;              
-                }
-                .cuatro3 img {
-                  width: 250px;
-                  height: 400px;
-                }
-            
                 .cuatro3 article {
                     width: 250px;
                     height: 400px;
@@ -1617,25 +1474,7 @@
                 .cuatro3:hover article a {
                   transform:scale(1) rotate(360deg);
                   }
-    
-                    
-
-                  .cuatro4 {
-                    position: absolute;
-                    left: 1000px;
-                    top: 730px;
-                    right: 0px;
-                    bottom: 0px;
-                    margin: auto;
-                    width: 250px;
-                    height: 400px;
-                    overflow: hidden;             
-                  }
-                  .cuatro4 img {
-                    width: 250px;
-                    height: 400px;
-                  }
-              
+                       
                   .cuatro4 article {
                       width: 250px;
                       height: 400px;
@@ -1709,22 +1548,21 @@
                     /****************PAGINA CINCO****************************************/
                     .pagina5{
                       width: auto;
-                      height: 1000px;
+                      height: 1160px;
                       background-color: #263238c5;
                       margin: auto;
                     }
                     
-                    .cinco1 {
-                      position: absolute;
-                      left: 80px;
-                      top: 730px;
-                      bottom: 0px;
+                    .cinco1, .cinco2, .cinco3, .cinco4{
+                      position: relative;
                       margin: auto;
                       width: 250px;
                       height: 400px;
-                      overflow: hidden;              
+                      overflow: hidden;        
+                      display: inline-block; 
+                      margin: 60px 20px 0px 30px ;             
                     }
-                    .cinco1 img {
+                    .cinco1, .cinco2, .cinco3, .cinco4 img {
                       width: 250px;
                       height: 400px;
                     }
@@ -1800,23 +1638,6 @@
                       transform:scale(1) rotate(360deg);
                       }
         
-        
-                      .cinco2 {
-                        position: absolute;
-                        left: -340px;
-                        top: 730px;
-                        right: 0px;
-                        bottom: 0px;
-                        margin: auto;
-                        width: 250px;
-                        height: 400px;
-                        overflow: hidden;              
-                      }
-                      .cinco2 img {
-                        width: 250px;
-                        height: 400px;
-                      }
-                  
                       .cinco2 article {
                           width: 250px;
                           height: 400px;
@@ -1888,23 +1709,6 @@
                         transform:scale(1) rotate(360deg);
                         }
           
-        
-                        .cinco3 {
-                          position: absolute;
-                          left: 330px;
-                          top: 730px;
-                          right: 0px;
-                          bottom: 0px;
-                          margin: auto;
-                          width: 250px;
-                          height: 400px;
-                          overflow: hidden;              
-                        }
-                        .cinco3 img {
-                          width: 250px;
-                          height: 400px;
-                        }
-                    
                         .cinco3 article {
                             width: 250px;
                             height: 400px;
@@ -1975,35 +1779,17 @@
                         .cinco3:hover article a {
                           transform:scale(1) rotate(360deg);
                           }
-            
-                            
-        
-                          .cinco4 {
-                            position: absolute;
-                            left: 1000px;
-                            top: 730px;
-                            right: 0px;
-                            bottom: 0px;
-                            margin: auto;
-                            width: 250px;
-                            height: 400px;
-                            overflow: hidden;             
-                          }
-                          .cinco4 img {
-                            width: 250px;
-                            height: 400px;
-                          }
-                      
-                          .cinco4 article {
-                              width: 250px;
-                              height: 400px;
-                              background-color: rgba(0, 7, 65, 0.81);
-                              position: absolute;
-                              left: 0px;
-                              top: 0px;
-                              transform: scale(0) rotate(0deg);
-                              transition-duration: .5s;
-                              text-align: center;
+  
+                        .cinco4 article {
+                          width: 250px;
+                          height: 400px;
+                          background-color: rgba(0, 7, 65, 0.81);
+                          position: absolute;
+                          left: 0px;
+                          top: 0px;
+                          transform: scale(0) rotate(0deg);
+                          transition-duration: .5s;
+                          text-align: center;
                             }
                       
                           .cinco4:hover article {
@@ -2061,29 +1847,28 @@
                               transition-duration: .5s;
                               transition-delay:1s;
                             }
-                          .cinco4:hover article a {
+                        .cinco4:hover article a {
                             transform:scale(1) rotate(360deg);
                             }
               /****************************************************pagina 6************************************************/
 
               .pagina6{
                 width: auto;
-                height: 1000px;
+                height: 1160px;
                 background-color: #263238c5;
                 margin: auto;
               }
               
-              .seis1 {
-                position: absolute;
-                left: 80px;
-                top: 730px;
-                bottom: 0px;
+              .seis1, .seis2, .seis3, .seis4{
+                position: relative;
                 margin: auto;
                 width: 250px;
                 height: 400px;
-                overflow: hidden;              
+                overflow: hidden;        
+                display: inline-block; 
+                margin: 60px 20px 0px 30px ;                
               }
-              .seis1 img {
+              .seis1,  .seis2, .seis3, .seis4 img {
                 width: 250px;
                 height: 400px;
               }
@@ -2159,23 +1944,6 @@
                 transform:scale(1) rotate(360deg);
                 }
   
-  
-                .seis2 {
-                  position: absolute;
-                  left: -340px;
-                  top: 730px;
-                  right: 0px;
-                  bottom: 0px;
-                  margin: auto;
-                  width: 250px;
-                  height: 400px;
-                  overflow: hidden;              
-                }
-                .seis2 img {
-                  width: 250px;
-                  height: 400px;
-                }
-            
                 .seis2 article {
                     width: 250px;
                     height: 400px;
@@ -2247,23 +2015,6 @@
                   transform:scale(1) rotate(360deg);
                   }
     
-  
-                  .seis3 {
-                    position: absolute;
-                    left: 330px;
-                    top: 730px;
-                    right: 0px;
-                    bottom: 0px;
-                    margin: auto;
-                    width: 250px;
-                    height: 400px;
-                    overflow: hidden;              
-                  }
-                  .seis3 img {
-                    width: 250px;
-                    height: 400px;
-                  }
-              
                   .seis3 article {
                       width: 250px;
                       height: 400px;
@@ -2335,24 +2086,6 @@
                     transform:scale(1) rotate(360deg);
                     }
       
-                      
-  
-                    .seis4 {
-                      position: absolute;
-                      left: 1000px;
-                      top: 730px;
-                      right: 0px;
-                      bottom: 0px;
-                      margin: auto;
-                      width: 250px;
-                      height: 400px;
-                      overflow: hidden;             
-                    }
-                    .seis4 img {
-                      width: 250px;
-                      height: 400px;
-                    }
-                
                     .seis4 article {
                         width: 250px;
                         height: 400px;
@@ -2423,25 +2156,27 @@
                     .seis4:hover article a {
                       transform:scale(1) rotate(360deg);
                       }
-                      /****************************2049************************************************************************/
+                      /****************************2049***********************************************/
                       .blade{
                         width: auto;
-                        height: 840px;
+                        height: 900px;
                         margin: auto;
                       }
                       .blade article{
                         width: 220px;
                         height: 350px;
                         text-align: center;
+                       
                       }
 
-                      .blade img:first-child{
+                     .blade img:first-child{
                         width: 1420px;
-                        height: 845px;
+                        height: 900px;
                         position: absolute;
                         opacity: 0.5;
                         float: left;
                         margin: auto;
+                        
                       }
                       .blade img:nth-child(2){
                         width: 220px;
@@ -2471,17 +2206,225 @@
                         color: #FFFFFF;
                         position: relative;
                         font-family: 'Orbitron', sans-serif;
-                        font-size: 35px;
+                        font-size: 35px;                      
+                      
                         margin: -328px 0px 0px 0px;
                      }
                      .blade p{
                       font-family: Arial, Helvetica, sans-serif;
-                      font-size: 16px;
+                      font-size: 10px;
                       text-align: justify;
                       color: #FFFFFF;
                       position: relative;
-                      margin: -10px -1000px 0px -350px
+                      padding: 20px;
+                      margin-top: -40px;
                      }
+                     /**********************************PIEPAG 3*******************/
+                     .piepag3{
+                      width: auto;
+                      height: 130px;
+                      background-color: #263238;
+                      text-align: center;
+                      position: relative;
+                      top: 70px;
+                      left: 0px;
+                      right: 0px;
+                      bottom: 0px;
+                    }
+                    .piepag3 img {
+                       width: 40px;
+                      height: 40px;
+                      position: relative;
+                      margin: 20px 10px 0px 0px;
+                    }
+        
+                    .piepag3  p{
+                     font-family: Arial, Helvetica, sans-serif;
+                     font-size: 12px;
+                     margin: 10px 0px 0px 0px;
+                     color: #ffffff;
+                    }
+
+                     /****************************coco************************************************/
+                     .coco{
+                      width: auto;
+                      height: 900px;
+                      margin: auto;
+                    }
+                    .coco article{
+                      width: 220px;
+                      height: 350px;
+                      text-align: center;
+                    }
+
+                    .coco img:first-child{
+                      width: 1420px;
+                      height: 900px;
+                      position: absolute;
+                      opacity: 0.5;
+                      float: left;
+                      margin: auto;
+                    }
+                    .coco img:nth-child(2){
+                      width: 220px;
+                      height: 350px;
+                      position: relative;
+                      left: 30px;
+                      top: 80px;
+                      -webkit-box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                      -moz-box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                      box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                    }
+                    .coco h1{
+                      font-family: Arial, Helvetica, sans-serif;
+                      font-size: 20px;
+                      color: #FFFFFF;
+                      position: relative;
+                      margin: 50px 0px 0px 300px
+                    }
+                    .coco h3{
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 25px;
+                      color: #FFFFFF;
+                      position: relative;
+                      margin: 40px 900px 0px -335px
+                     }
+                    .coco h4{
+                      color: #FFFFFF;
+                      position: relative;
+                      font-family: 'Orbitron', sans-serif;
+                      font-size: 35px;
+                      margin: -328px 0px 0px 0px;
+                   }
+                   .coco p{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 16px;
+                    text-align: justify;
+                    color: #FFFFFF;
+                    position: relative;
+                    padding: 20px;
+                    margin-top: -40px;
+                   }
+                   /*******************************guardianes de la galaxia*****************************************/
+                   .guardianes{
+                    width: auto;
+                    height: 900px;
+                    margin: auto;
+                  }
+                  .guardianes article{
+                    width: 220px;
+                    height: 350px;
+                    text-align: center;
+                  }
+
+                  .guardianes img:first-child{
+                    width: 1420px;
+                    height: 900px;
+                    position: absolute;
+                    opacity: 0.5;
+                    float: left;
+                    margin: auto;
+                  }
+                  .guardianes img:nth-child(2){
+                    width: 220px;
+                    height: 350px;
+                    position: relative;
+                    left: 30px;
+                    top: 80px;
+                    -webkit-box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                    -moz-box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                    box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                  }
+                  .guardianes h1{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    position: relative;
+                    margin: 50px 0px 0px 300px
+                  }
+                  .guardianes h3{
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 25px;
+                    color: #FFFFFF;
+                    position: relative;
+                    margin: 40px 900px 0px -335px
+                   }
+                  .guardianes h4{
+                    color: #FFFFFF;
+                    position: relative;
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 35px;
+                    margin: -328px 0px 0px 0px;
+                 }
+                 .guardianes p{
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 16px;
+                  text-align: justify;
+                  color: #FFFFFF;
+                  position: relative;
+                  padding: 20px;
+                  margin-top: -40px;
+                 }
+                 /***************************LARA CROFT************************************************/
+                 .tomb{
+                  width: auto;
+                  height: 900px;
+                  margin: auto;
+                }
+                .tomb article{
+                  width: 220px;
+                  height: 350px;
+                  text-align: center;
+                }
+
+                .tomb img:first-child{
+                  width: 1420px;
+                  height: 900px;
+                  position: absolute;
+                  opacity: 0.5;
+                  float: left;
+                  margin: auto;
+                }
+                .tomb img:nth-child(2){
+                  width: 220px;
+                  height: 350px;
+                  position: relative;
+                  left: 30px;
+                  top: 80px;
+                  -webkit-box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                  -moz-box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                  box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
+                }
+                .tomb h1{
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 20px;
+                  color: #FFFFFF;
+                  position: relative;
+                  margin: 50px 0px 0px 300px
+                }
+                .tomb h3{
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 25px;
+                  color: #FFFFFF;
+                  position: relative;
+                  margin: 40px 900px 0px -335px
+                 }
+                .tomb h4{
+                  color: #FFFFFF;
+                  position: relative;
+                  font-family: 'Orbitron', sans-serif;
+                  font-size: 35px;
+                  margin: -328px 0px 0px 0px;
+               }
+               .tomb p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                text-align: justify;
+                color: #FFFFFF;
+                position: relative;
+                padding: 20px;
+                margin-top: -40px;
+               }
                      
                      
 
