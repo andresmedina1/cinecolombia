@@ -2142,20 +2142,20 @@
                     .seis4:hover article a {
                       transform:scale(1) rotate(360deg);
                       }
-                      /****************************2049***********************************************/
-                      .pelicula{
+                      /****************************PELICULA***********************************************/
+                      .movies{
                         width: auto;
                         height: 900px;
                         margin: auto;
                       }
-                      .pelicula article{
+                      .movies article{
                         width: 220px;
                         height: 350px;
                         text-align: center;
                        
                       }
 
-                     .pelicula img:first-child{
+                     .movies img:first-child{
                         width: 1420px;
                         height: 900px;
                         position: absolute;
@@ -2164,7 +2164,7 @@
                         margin: auto;
                         
                       }
-                      .pelicula img:nth-child(2){
+                      .movies img:nth-child(2){
                         width: 220px;
                         height: 350px;
                         position: relative;
@@ -2174,28 +2174,28 @@
                         -moz-box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
                         box-shadow: 8px -8px 13px -5px rgba(255,255,255,1);
                       }
-                      .pelicula h1{
+                      .movies h1{
                         font-family: Arial, Helvetica, sans-serif;
                         font-size: 20px;
                         color: #FFFFFF;
                         position: relative;
                         margin: 50px 0px 0px 300px
                       }
-                      .pelicula h3{
+                      .movies h3{
                         font-family: 'Orbitron', sans-serif;
                         font-size: 25px;
                         color: #FFFFFF;
                         position: relative;
                         margin: 40px 900px 0px -335px
                        }
-                      .pelicula h4{
+                      .movies h4{
                         color: #FFFFFF;
                         position: relative;
                         font-family: 'Orbitron', sans-serif;
                         font-size: 35px;                      
                         margin: -328px 0px 0px 0px;
                      }
-                     .pelicula p{
+                     .movies p{
                         font-family: Arial, Helvetica, sans-serif;
                         font-size: 10px;
                         text-align: justify;
