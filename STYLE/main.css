@@ -2172,7 +2172,7 @@
                       /****************************PELICULA***********************************************/
                       .movies{
                         width: auto;
-                        height: 900px;
+                        height: 850px;
                         margin: -4px 0px 0px 0px;
                         background-color: rgb(0, 0, 0);
                       }
@@ -2214,7 +2214,7 @@
                         font-size: 25px;
                         color: #FFFFFF;
                         position: relative;
-                        margin: 30px 900px 0px -335px
+                        margin: 37px 900px 0px -273px
                        }                       
                       .titulo1{
                         color: #FFFFFF;
@@ -2281,7 +2281,7 @@
                       font-family: 'Orbitron', sans-serif;
                       font-size: 26px;
                       float: left;
-                      margin-top: -25px;
+                      margin-top: -38px;
                       margin-left: 21px;
                    }
                    .banner4{
