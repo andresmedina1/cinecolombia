@@ -68,7 +68,7 @@
     /******************************slider**************************************/
     .slider{
       width: auto;
-      height: 550px;
+      height: 600px;
       margin: auto;
       overflow: hidden;
       position: relative;
@@ -576,7 +576,7 @@
               background-color: #263238;
               text-align: center;
               position: absolute;
-              top: 1090px;
+              top: 1100px;
               left: 0px;
               right: 0px;
               bottom: -250px;
@@ -601,7 +601,7 @@
               background-color: #263238;
               text-align: center;
               position: absolute;
-              top: 1190px;
+              top: 1205px;
               left: 0px;
               right: 0px;
               bottom: -250px;
@@ -2481,7 +2481,7 @@
                       /****************************PELICULA***********************************************/
                       .movies{
                         width: auto;
-                        height: 850px;
+                        height: 870px;
                         margin: -4px 0px 0px 0px;
                         background-color: rgb(0, 0, 0);
                       }
@@ -2492,7 +2492,7 @@
                        
                       }
 
-                     .fondo{
+                   /*  .fondo{
                         width: 1420px;
                         height: 900px;
                         position: absolute;
@@ -2500,7 +2500,7 @@
                         float: left;
                         margin: auto;
                         
-                      }
+                      }*/
                       .poster{
                         width: 220px;
                         height: 350px;
