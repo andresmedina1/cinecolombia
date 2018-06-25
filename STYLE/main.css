@@ -43,7 +43,7 @@
   nav ul center a{
     text-align: center;
     display: inline-block;
-    margin: 5px 50px 5px 50px;
+    margin: 5px 40px 5px 50px;
 
   }
   a {
@@ -2516,7 +2516,7 @@
                         font-size: 20px;
                         color: #FFFFFF;
                         position: relative;
-                        margin: 50px 0px 0px 300px
+                        margin: 40px 0px 0px 300px
                       }
                       .titulo2{
                         font-family: 'Orbitron', sans-serif;
