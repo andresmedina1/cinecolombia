@@ -2624,6 +2624,76 @@
                     margin-top: 75px;
                     margin-left: 0px;
                    }
+                   .ver{
+                    width: 100px;
+                    height: 25px;
+                    position: absolute;
+                    top: 1311px;
+                    right: 50px;
+                    left: 302px;
+                    color: white;
+                    font-size: 18px;
+                    border: 2px solid white;
+                    border-radius: 5%;
+                    text-align: center;
+                    transition: 1s;
+                   }
+                   .ver:hover{
+                    border: 2px solid #FBFF00;
+                    color: #FBFF00;
+                   }
+                   .descargar{
+                    width: 153px;
+                    height: 25px;
+                    position: absolute;
+                    top: 1311px;
+                    left: 431px;
+                    color: white;
+                    font-size: 18px;
+                    border: 2px solid white;
+                    border-radius: 5%;
+                    text-align: center;
+                    transition: 1s;
+                   }
+                   .descargar:hover{
+                    border: 2px solid #FBFF00;
+                    color:#FBFF00;
+                   }
+                   .ver2{
+                    width: 100px;
+                    height: 25px;
+                    position: absolute;
+                    top: 1112px;
+                    left: 302px;
+                    color: white;
+                    font-size: 18px;
+                    border: 2px solid white;
+                    border-radius: 5%;
+                    text-align: center;
+                    transition: 1s;
+                   }
+                   .ver2:hover{
+                    border: 2px solid #FBFF00;
+                    color: #FBFF00;
+                   }
+                   .descargar2{
+                    width: 153px;
+                    height: 25px;
+                    position: absolute;
+                    top: 1112px;
+                    left: 431px;
+                    color: white;
+                    font-size: 18px;
+                    border: 2px solid white;
+                    border-radius: 5%;
+                    text-align: center;
+                    transition: 1s;
+                   }
+                   .descargar2:hover{
+                    border: 2px solid #FBFF00;
+                    color:#FBFF00;
+                   }
+
 
 
                   
